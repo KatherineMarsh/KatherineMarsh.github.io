@@ -1,0 +1,48 @@
+@import '../../variables.less';
+
+div.header {
+	nav.top-menu {
+	  background-color: @color__nav;
+	  font-family: @font__nav;
+      color: @font__color__light;
+      
+	  & > div {
+	  	margin: .6em;
+	  	padding: 1em;
+	  	font-size: @font__medium;
+	  }
+	}
+}
+
+.intro {
+    background-color:@color__dark-blue;
+
+    .image-main {
+        max-width: 50%;
+        float: left;
+    }
+
+    .profile {
+        float: right;
+        max-width: 50%;
+    
+        .image-profile {
+            max-width: 20%;
+            padding-top: 2em;
+            padding-left: 2rem;
+            border-radius: 100%;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: @font__header;
+        }
+    
+        h2, .profile-text {
+            color: @font__color__light;
+            font-family: @font__nav;
+            padding-left: 2rem;
+        }
+    
+    }
+}

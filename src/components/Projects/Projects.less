@@ -1,0 +1,18 @@
+@import '../../variables.less';
+
+.projects {
+    background-color: @color__projects;
+    color: @color__navy;
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+    & > div {
+        float: left;
+        width: 33%;
+        border: 1px solid green;
+        .image-project {
+            max-width: 100%;
+        }
+    }
+}
