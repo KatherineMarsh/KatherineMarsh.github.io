@@ -1,9 +1,9 @@
-@import (css) url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600&display=swap);
+@import (css) url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,60,700&display=swap);
+@import (css) url(https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap);
 
 // Components Backgrounds /////////////////
 @color__nav : @color__navy;
-@color__hello-world : @color__pink;
-@color__about-me : @color__blue;
+@color__about : @color__blue;
 @color__experiences : @color__purple;
 @color__projects : @color__pink;
 @color__involvement : @color__blue;
@@ -15,24 +15,29 @@
 @color__dark-grey : #0d0b10;
 @color__pink : #f572ea;
 @color__dark-pink : #c64fa9;
-@color__dark-blue : #582b9e;
+@color__blue : #3b3398;
 @color__purple : #bf7aff;
-@color__blue : #4334eb;
 @color__navy : #2a2837;
+@color__green : #99b561;
 
 // Fonts /////////////////
-@font__nav : 'Montserrat', sans-serif;
+@font__default : 'Montserrat', sans-serif;
+@font__robot : 'Roboto', sans-serif;
 @font__color__light : @color__white;
+@font__color__dark : @color__navy;
+@font__small : .8rem;
 @font__medium : 1rem;
 @font__header : 2rem;
-
-.flex {
-	display: flex;
-}
 
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+* {
+    font-family: @font__default;
+    color: @font__color__light;
+    box-sizing: border-box;
 }

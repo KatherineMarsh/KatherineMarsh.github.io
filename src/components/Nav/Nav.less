@@ -1,48 +1,45 @@
 @import '../../variables.less';
 
-div.header {
-	nav.top-menu {
-	  background-color: @color__nav;
-	  font-family: @font__nav;
-      color: @font__color__light;
-      
-	  & > div {
-	  	margin: .6em;
-	  	padding: 1em;
-	  	font-size: @font__medium;
-	  }
+div.top-nav {
+	display: flex;
+	padding: 1.6rem;
+	background-color: @color__nav;
+
+	.top-nav-item {
+		padding-right: 1.6rem;
+		padding-left: 1.6rem;
+
+		& > a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: @font__default;
+			font-weight: 700;
+			letter-spacing: 3px;
+			font-size: @font__small;
+		}
+
+		& > a.Contact {
+			border: 2px solid white;
+			padding: .4rem;
+		}
 	}
 }
 
-.intro {
-    background-color:@color__dark-blue;
+@media only screen and (max-width: 900px) {
+	div.top-nav {
+		padding: 1rem;
+		flex-direction: column;
 
-    .image-main {
-        max-width: 50%;
-        float: left;
-    }
-
-    .profile {
-        float: right;
-        max-width: 50%;
-    
-        .image-profile {
-            max-width: 20%;
-            padding-top: 2em;
-            padding-left: 2rem;
-            border-radius: 100%;
-        }
-
-        h2 {
-            margin: 0;
-            font-size: @font__header;
-        }
-    
-        h2, .profile-text {
-            color: @font__color__light;
-            font-family: @font__nav;
-            padding-left: 2rem;
-        }
-    
-    }
+		.top-nav-item {
+			padding-right: .8rem;
+			padding-left: .8rem;
+			padding-bottom: .8rem;
+	
+			& > a.Contact {
+				border: 1.5px solid white;
+				padding: .3rem;
+			}
+			
+		}
+	}	
 }
