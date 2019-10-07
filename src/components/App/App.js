@@ -1,15 +1,18 @@
 import React, {Component} from 'react';
 import {Nav} from '../Nav/Nav';
 import Intro from '../Intro/Intro';
-import Projects from '../Projects/Projects';
+import {ProjectGrid} from '../Projects/ProjectGrid';
 import Experience from '../Experience/Experience';
 import Books from '../Books/Books';
 import {navData} from '../../data';
+import {projectData} from '../../data';
+
 import './reset.css';
 
 class App extends Component {
   state = {
-    menuItems: navData
+    menuItems: navData,
+    projects: projectData
   }
 
   render(){
@@ -19,6 +22,9 @@ class App extends Component {
           <Nav 
             menuItems={menuItems}/>
           <Intro />
+          <ProjectGrid
+            projects={projectData}/>
+
       </React.Fragment>
     )
   }
