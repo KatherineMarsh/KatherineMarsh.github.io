@@ -10,7 +10,7 @@ class Intro extends Component {
           <img alt="Katherine Marsh" src={require("../../images/profile.png")}/>
           <div className="about-text">
             <h2 className="about-name">Katherine Marsh</h2>
-            <div className="about-general">Computer science - North Carolina State University '21.</div>
+            <div className="about-general">Computer science - North Carolina State University '21</div>
             <br></br>
 
             <div className="about-description">I'm a junior majoring in computer science with a passion for development, design, and experimenting with new tech.
