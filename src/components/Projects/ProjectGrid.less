@@ -2,28 +2,44 @@
 
 .projects {
     background-color: @color__projects;
-    color: @color__navy;
-    width: 100%;
     padding: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: @font__robot;
+    font-weight: 600;
 
-    & > div {
+    .project-item {
         text-align: center;
-        float: left;
-        width: 33%;
+        width: ~"calc(100% / 3)";
+        display: inline-block;
+        vertical-align: top;
         padding: 1rem;
-        
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+
         .project-title {
+            font-family: @font__default;
             font-weight: 700;
             margin-bottom: 1rem;
+            color: @color__navy;
+        }
+
+        & > img {
+            max-width: 100%;
         }
 
         .project-desc {
-            margin-top: 1rem;
+            color: @color__navy;
+            padding-top: 1rem;
         }
 
-        .image-project {
-            max-width: 100%;
+        .project-link > a {
+            display: block;
+            text-decoration: none;
+
+            &:active, &:focus {
+                outline: 0;
+                border: none;
+                -moz-outline-style: none;
+            }
         }
     }
 
@@ -31,5 +47,13 @@
         content: "";
         clear: both;
         display: table;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projects {
+        & > .project-item {
+            width: 100%;
+        }
     }
 }
