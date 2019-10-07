@@ -1,0 +1,45 @@
+@import '../../variables.less';
+
+div.top-nav {
+	display: flex;
+	padding: 1.6rem;
+	background-color: @color__nav;
+
+	.top-nav-item {
+		padding-right: 1.6rem;
+		padding-left: 1.6rem;
+
+		& > a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: @font__default;
+			font-weight: 700;
+			letter-spacing: 3px;
+			font-size: @font__small;
+		}
+
+		& > a.Contact {
+			border: 2px solid white;
+			padding: .4rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	div.top-nav {
+		padding: 1rem;
+		flex-direction: column;
+
+		.top-nav-item {
+			padding-right: .8rem;
+			padding-left: .8rem;
+			padding-bottom: .8rem;
+	
+			& > a.Contact {
+				border: 1.5px solid white;
+				padding: .3rem;
+			}
+			
+		}
+	}	
+}

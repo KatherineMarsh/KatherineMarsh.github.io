@@ -1,0 +1,35 @@
+@import '../../variables.less';
+
+.projects {
+    background-color: @color__projects;
+    color: @color__navy;
+    width: 100%;
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+    & > div {
+        text-align: center;
+        float: left;
+        width: 33%;
+        padding: 1rem;
+        
+        .project-title {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .project-desc {
+            margin-top: 1rem;
+        }
+
+        .image-project {
+            max-width: 100%;
+        }
+    }
+
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
