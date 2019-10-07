@@ -39,7 +39,7 @@ export const projectData = [
         title: 'Resume Web App', 
         imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/helloWorldWebsite.png?raw=true',
         link: '#',
-        about: 'This site! Mobile Responsive web app build with React, HTML5/CSS, and Firebase Relational Database',
+        about: 'This site! Mobile Responsive web app built with React, HTML5/CSS, and Firebase Relational Database',
         sourceCodeUrl: 'https://github.com/katherinemarsh/resume-website'
     }
 ]
