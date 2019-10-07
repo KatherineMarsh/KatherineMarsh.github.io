@@ -11,7 +11,7 @@ class NavItem extends Component {
     const {menuItem} = this.props
     return (
       <div className="top-nav-item">
-        <a target="_blank" rel="noopener noreferrer" className={menuItem.label} href={menuItem.link}>{menuItem.label}</a>
+        <a className={menuItem.label} href={menuItem.link}>{menuItem.label}</a>
       </div>
     )
   }
