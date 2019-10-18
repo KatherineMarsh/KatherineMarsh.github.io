@@ -10,22 +10,23 @@ div.main-intro {
     .main-intro-about {
         width: 65%;
         display: inline-block;
-        padding-left: 2rem;
+        padding: 2rem;
         
         & > img {
-            max-width: 25%;
+            max-width: 30%;
             vertical-align: middle;
+            padding: 2rem;
         }
 
         & > .about-text {
             display: inline-block;
             vertical-align: middle;
-            max-width: 75%;
-            padding: 2rem;
+            max-width: 70%;
+            padding-left: 2rem;
         }
 
         .about-name {
-            font-size: 2.4rem;
+            font-size: 2.8rem;
             font-family: @font__default;
             font-weight: 700;
             margin-bottom: 1rem;
@@ -35,7 +36,7 @@ div.main-intro {
         }
 
         .about-general, .about-description {
-            line-height: 1.2rem;
+            line-height: 1.6rem;
             font-family: @font__robot;
             letter-spacing: 1px;
             font-size: 1rem;
@@ -60,15 +61,21 @@ div.main-intro {
     div.main-intro {
         .main-intro-about {
             & > img {
-                max-width: 40%;
+                max-width: 30%;
+                padding: 0;
             }
     
             & > .about-text {
-                max-width: 60%;
+                max-width: 70%;
             }
     
             .about-name {
-                font-size: 3rem;
+                font-size: 2.2rem;
+            }
+
+            .about-general, .about-description {
+                line-height: 1.2rem;
+                font-size: .8rem;
             }
         }
     }	
@@ -83,7 +90,7 @@ div.main-intro {
         .main-intro-about {
             width: 100%;
             & > img {
-                padding: 3rem;
+                padding: 2rem;
             }
         }
     }

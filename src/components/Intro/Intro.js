@@ -14,7 +14,7 @@ class Intro extends Component {
             <br></br>
 
             <div className="about-description">I'm a junior majoring in computer science with a passion for development, design, and experimenting with new tech.
-             I have experience in e-commerce web development, as well as Android app development.
+             I have experience in e-commerce web development and Android app development.
              </div>
 
             <div className="about-description">View my resume <a href="https://drive.google.com/file/d/1p5naGRABq4qJkt0ITFRp3fSo4_qyqftv/view?usp=sharing" 

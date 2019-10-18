@@ -11,10 +11,10 @@ export const navData = [
     //     label: 'Experience', 
     //     link: 'https://images.dog.ceo//breeds//beagle//n02088364_12713.jpg'
     // },
-    // {
-    //     label: 'Book Recommendations', 
-    //     link: 'https://images.dog.ceo//breeds//beagle//n02088364_12713.jpg'
-    // },
+    {
+        label: 'Books', 
+        link: '#books'
+    },
     {
         label: 'Contact', 
         link: 'https://www.linkedin.com/in/katherine-marsh-42a670151/'
@@ -25,7 +25,7 @@ export const projectData = [
         title: 'TrackCast', 
         imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/trackcast.png?raw=true',
         link: 'http://trackcast.herokuapp.com/',
-        about: 'Mobile responsive web app built with Python Flask, HTML5/CSS, and gPodderAPI. Winning submission for Capital One Software Engineering Summit.',
+        about: 'Mobile responsive web app built with Python Flask, HTML/CSS, and gPodderAPI. Winning submission for Capital One Software Engineering Summit.',
         sourceCodeUrl: 'https://github.com/katherinemarsh/TrackCast'
     },
     {
@@ -39,7 +39,7 @@ export const projectData = [
         title: 'Resume Web App', 
         imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/helloWorldWebsite.png?raw=true',
         link: '#',
-        about: 'This site! Mobile Responsive web app build with React, HTML5/CSS, and Firebase Relational Database',
+        about: 'This site! Mobile Responsive web app built with React, HTML/LESS, and Firebase Relational Database',
         sourceCodeUrl: 'https://github.com/katherinemarsh/resume-website'
     }
 ]
