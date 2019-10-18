@@ -11,10 +11,10 @@ export const navData = [
     //     label: 'Experience', 
     //     link: 'https://images.dog.ceo//breeds//beagle//n02088364_12713.jpg'
     // },
-    // {
-    //     label: 'Book Recommendations', 
-    //     link: 'https://images.dog.ceo//breeds//beagle//n02088364_12713.jpg'
-    // },
+    {
+        label: 'Books', 
+        link: '#books'
+    },
     {
         label: 'Contact', 
         link: 'https://www.linkedin.com/in/katherine-marsh-42a670151/'

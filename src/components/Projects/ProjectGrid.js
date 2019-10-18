@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './ProjectGrid.less';
 
 export const ProjectGrid = (props) =>
-  <div className="projects">
+  <div id="projects" className="projects">
     {props.projects.map((project, i) => <Project key={i} project={project} {...props}/>)}
   </div>
 
