@@ -69,8 +69,8 @@ class Books extends Component {
       <div id="books" className="books">
           <div className="books-current">
               <h3>Currently Reading:</h3>
-              <p className="books-title">On a Marche Sur La Lune</p>
-              <p className="books-author">Herge</p>
+              <p className="books-title">A Short History of Nearly Everything</p>
+              <p className="books-author">Bill Bryson</p>
           </div>
           <div className="books-recommendation">
               <h3>Please Recommend a Book:</h3>

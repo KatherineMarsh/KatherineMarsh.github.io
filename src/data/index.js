@@ -12,7 +12,7 @@ export const navData = [
     //     link: 'https://images.dog.ceo//breeds//beagle//n02088364_12713.jpg'
     // },
     {
-        label: 'Books', 
+        label: 'Recommend a Book', 
         link: '#books'
     },
     {
@@ -25,7 +25,7 @@ export const projectData = [
         title: 'TrackCast', 
         imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/trackcast.png?raw=true',
         link: 'http://trackcast.herokuapp.com/',
-        about: 'Mobile responsive web app built with Python Flask, HTML/CSS, and gPodderAPI. Winning submission for Capital One Software Engineering Summit.',
+        about: 'Mobile responsive web app built with Python Flask, HTML/CSS, and gPodder API. Winning submission for Capital One Software Engineering Summit.',
         sourceCodeUrl: 'https://github.com/katherinemarsh/TrackCast'
     },
     {
@@ -41,5 +41,29 @@ export const projectData = [
         link: '#',
         about: 'This site! Mobile Responsive web app built with React, HTML/LESS, and Firebase Relational Database',
         sourceCodeUrl: 'https://github.com/katherinemarsh/resume-website'
+    },
+    {
+        title: 'GradeSnap', 
+        imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/gradesnap.png?raw=true',
+        link: null,
+        about: 'Summer 2020 Research Project - Completed frontend overhaul on Angular web app build for educators to grade Snap programs.',
+        sourceCodeUrl: null
+    },
+    {
+        title: 'Antie', 
+        imgSrc: 'https://github.com/katherinemarsh/resume-website/blob/master/src/images/antie.png?raw=true',
+        link: null,
+        about: 'Summer 2020 Research Project - Completed multiple nodes of anti-racist chatbot designed to support and educate users on the Black Lives Matter Movement. Utilized Google Civics API, SQL queries within the Data.World API, and the New York Times API with webhooks to complete each node.',
+        sourceCodeUrl: null
+    }
+]
+export const machineLearningNotes = [
+    {
+        title: 'Tensors',
+        desc: 'Review vectors: quantity with both magnitude and direction. Can break into components. A tensor is a vector. Tensor of rank 1 '
+    },
+    {
+        title: 'Machine Learning',
+        desc: 'Goal = match input to some output (ex. image to dog). 2 or more hidden layers = deep neural network'
     }
 ]
